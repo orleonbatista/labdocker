@@ -10,7 +10,7 @@ ou
 
 
 ### How to: 
-Alterar a variável *MSG* no arquivo *vars.env* para exibir o conteúdo desejado.
+Alterar a variável *MSGVAR* no arquivo *vars.env* para exibir o conteúdo desejado.
 
 ## Obs:
 * Alterei o codigo da *app.py* para usar o primeiro argumento recebido na chamada importando o *sys*: *return html.format(message=os.getenv("MESSAGE", sys.argv[1]), visits=visits)*
